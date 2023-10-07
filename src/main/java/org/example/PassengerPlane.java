@@ -29,7 +29,7 @@ public class PassengerPlane extends Transport {
     @Override
     public String getInfo() {
         return super.getInfo() +
-                "people: " + people +
+                "\npeople: " + people +
                 "\nplaces: " + places ;
     }
 }
